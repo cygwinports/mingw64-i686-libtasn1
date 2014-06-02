@@ -12,6 +12,7 @@ HOMEPAGE="http://www.gnu.org/software/libtasn1/"
 SRC_URI="mirror://gnu/libtasn1/libtasn1-${VERSION}.tar.gz
 	 mirror://gnu/libtasn1/libtasn1-${VERSION}.tar.gz.sig"
 SRC_DIR="libtasn1-${VERSION}"
+PATCH_URI="3.6-automake.patch"
 
 ACLOCAL_FLAGS="-I lib/glm4 -I gl/m4 -I m4"
 MAKEOPTS+=" bin_PROGRAMS= dist_man_MANS= INFO_DEPS= "
