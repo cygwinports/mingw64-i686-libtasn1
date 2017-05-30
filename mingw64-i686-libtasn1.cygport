@@ -2,7 +2,7 @@ CROSS_HOST="i686-w64-mingw32"
 inherit cross gnome2
 
 NAME="mingw64-i686-libtasn1"
-VERSION=4.10
+VERSION=4.12
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="ASN.1 library for Win32 toolchain"
